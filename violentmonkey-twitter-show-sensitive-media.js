@@ -61,6 +61,5 @@ window.addEventListener('load', function () {
     // install an event handler to Show media as soon as they appear
     tryToShowNewMediaImmediately();
     // Sometimes (10-20%) the event handler fails to make the image appear (some race condition?).
-    //
     keepShowingAllRegularly();
 });
